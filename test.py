@@ -43,13 +43,7 @@ def order(x: list) -> list:
     #return sorted list
     return x_ordered
 
-
-
-x = [1, 2]
-x = []
-x = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-x = [9, 8, 7, 6, 5, 4, 3, 2, 1]
-
-
+x = input("Enter your list here")
 x_ordered = order(x)
 print(f"{x} --> {x_ordered}")
+
